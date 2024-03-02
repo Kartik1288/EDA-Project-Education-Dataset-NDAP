@@ -8,17 +8,17 @@
 
 **## Overview**
 
-The GetUp project aims to provide a comprehensive analysis of the state of educational infrastructure across India. We believe that access to quality infrastructure is a crucial factor in ensuring equal educational opportunities for all children.  This project delves into the Indian schools dataset, uncovering patterns, disparities, and potential areas for improvement in infrastructure.
+The project aims to analyse educational infrastructure across India comprehensively. Access to quality infrastructure is a crucial factor in ensuring equal educational opportunities for all children.  This project delves into the Indian school's dataset, uncovering patterns, disparities, and potential areas for infrastructure improvement.
 
 **## Key Findings**
 
 * **Disparities Exist:** There are significant variations in the availability of essential infrastructure across different states in India.
-* **Technology Integration:** Schools are increasingly adopting technology, with a higher prevalence of tablets and laptops compared to traditional desktop computers.
+* **Technology Integration:** Schools are increasingly adopting technology, with a higher prevalence of tablets and laptops than traditional desktop computers.
 * **Cluster Analysis:** We identified three distinct clusters of schools based on infrastructure levels:
     * *Cluster 0:* Good Infrastructure, Basic Facilities, Limited Resources
     * *Cluster 1:* Best Infrastructure, Advanced Facilities, Adequate Resources
     * *Cluster 2:* Inadequate Infrastructure, Intermediate Facilities, Abundant Resources
-* **Focus on the Northeast:** Our analysis highlights a need to improve infrastructure in the northeastern states of India, despite the availability of resources in the region.
+* **Focus on the Northeast:** Our analysis highlights a need to improve infrastructure in the northeastern states of India despite the availability of resources in the region.
 
 **## Methodology**
 
@@ -32,7 +32,7 @@ The GetUp project aims to provide a comprehensive analysis of the state of educa
     * Examined distributions and correlations.
 4. **Clustering:**
     * Employed K-Means and Hierarchical Clustering to group schools based on infrastructure.
-    * Utilized Elbow Method and Silhouette Score to determine the optimal number of clusters.
+    * Utilized the Elbow Method and Silhouette Score to determine the optimal number of clusters.
 5.  **Dimension Reduction:**
     * Applied Principal Component Analysis (PCA) to identify key influencing factors. 
     * Used Multidimensional Scaling (MDS) to visualize the non-linear structure of the data.
